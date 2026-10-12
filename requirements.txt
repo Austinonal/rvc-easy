@@ -1,0 +1,12 @@
+# ต้องใช้ Python 3.10 (rvc-python ล็อก fairseq/numpy รุ่นเก่า ที่ติดตั้งบน 3.12+ ไม่ได้)
+torch==2.1.2
+torchaudio==2.1.2
+rvc-python==0.1.5
+gradio==4.44.1
+huggingface_hub<0.26
+setuptools<70
+pydantic==2.10.6
+fastapi==0.112.4
+starlette<0.39
+audio-separator[cpu]==0.24.1
+triton==2.1.0
